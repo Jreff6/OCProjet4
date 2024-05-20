@@ -122,7 +122,7 @@
     prevImage() {
       let activeImage = null;
       $("img.gallery-item").each(function() {
-        if ($(this).attr("src") === $(".lightboxImage").attr("src")) {
+        if ($(this).attr("src") === $("#${lightboxId} .lightboxImage").attr("src")) {
           activeImage = $(this);
         }
       });
