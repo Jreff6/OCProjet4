@@ -75,7 +75,7 @@ body {
 }
 
 .picture img {
-	max-width: 100%;
+	max-width: auto;
 	height: auto;
 }
 
