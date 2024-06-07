@@ -118,12 +118,17 @@ body {
 	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
+	cursor: pointer;
 }
 .nav-pills .nav-link {
 	color: #000
 }
 
 .nav-item {
+	cursor: pointer;
+}
+
+.nav-item:hover{
 	cursor: pointer;
 }
 .item-column {
